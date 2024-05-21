@@ -24,6 +24,31 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
+    border: 1px black solid;
+    border-radius: 5px;
     margin:5px;
+}
+
+.white{
+    color:white;
+}
+
+.terribly{
+    color:red;
+}
+
+.alright{
+    color:gold;
+}
+
+.great{
+    color:greenyellow;
+}
+
+h1,p,h2,h3{
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: grey;
 }
