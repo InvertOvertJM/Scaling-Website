@@ -1,10 +1,11 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
     text-align:center;
+    font-size: 60px;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
-img {
+.bigimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -24,12 +25,24 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 1px black solid;
+    border: 1px, black;
     border-radius: 5px;
     margin:5px;
 }
 
 /* Font Colors */
+
+#title{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style:double;
+    text-decoration-thickness: 0.5px;
+}
+
+.aqua{
+    color:aqua
+}
+
 .white{
     color:white;
 }
@@ -46,10 +59,26 @@ h2 {
     color:greenyellow;
 }
 
-h1,p,h2,h3{
+a{
+    text-decoration: none;
+}
+
+h1,p,h2,h3,li{
     font-family:'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+ol{
+    text-shadow: 1px;
+}
+
+li{
+    font-size:20px;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 body{
-    background-color: grey;
+    background-image:url("");
+    background-color: rgb(112, 112, 112);
 }
