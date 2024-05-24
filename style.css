@@ -7,6 +7,7 @@ body.index {
     background-image: url("images/The-Division-E3-2015-department-store-01.webp");
     background-size: cover;
     background-position: center;
+    background-repeat: repeat-x;
     position: absolute;
     top: 0;
     left: 0;
