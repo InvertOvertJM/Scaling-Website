@@ -71,3 +71,53 @@ body {
   p,li,h1,h2,h3,div{
     font-family: monospace;
   }
+
+  .content-box {
+    border: 2px solid;
+    border-color: white;
+    height: 400px;
+    width: 100%;
+    display:fill;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: border-color 0.3s;
+  }
+
+  .content-box:hover {
+    border-color: orange;
+  }
+  .content-box img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+
+
+  .text-section {
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: #222;
+    color: #aaa;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1;
+  }
+
+  .audio-player {
+    padding: 10px;
+}
+
+.text-primary{
+  text-decoration: underline;
+}
